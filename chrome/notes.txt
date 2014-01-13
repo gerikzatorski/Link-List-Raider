@@ -1,0 +1,13 @@
+Possible names:
+    Link Carver
+    Link Collector
+    Link Hunter
+    Link Raider
+    Link Herder
+    Link Corraler
+    Link Culler
+    Link Prober
+    
+    Link Manager
+    
+    Raiders of the link list

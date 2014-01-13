@@ -1,0 +1,28 @@
+{
+    "name": "Link Carver",
+    "description": "This extension opens all the links in a list in a new window",
+    "version": "0.1",
+    
+    "permissions": ["<all_urls>", "contextMenus", "http://*/"],
+    
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+        
+    "browser_action": {
+        "default_title": "Link Carver"
+        /*"default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },*/
+        //"default_popup": "popup.html"
+    },
+    
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
+    
+    "manifest_version": 2
+}
